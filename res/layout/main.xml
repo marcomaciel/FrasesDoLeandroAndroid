@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/titulo"
+            android:contentDescription="@string/tit_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tit_frases_do_leandro" />
+
+        <Button
+            android:id="@+id/btnOutraFrase"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/tit_botao" />
+
+        <TextView
+            android:id="@+id/txtFrase"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnOutraFrase"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/titulo"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/hello"
+            android:textColor="#3D3D3D"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
