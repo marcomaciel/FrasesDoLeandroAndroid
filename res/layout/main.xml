@@ -12,9 +12,9 @@
 
         <ImageView
             android:id="@+id/titulo"
-            android:contentDescription="@string/tit_app"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/tit_app"
             android:src="@drawable/tit_frases_do_leandro" />
 
         <Button
@@ -33,10 +33,9 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/titulo"
             android:gravity="center_vertical|center_horizontal"
-            android:text="@string/hello"
+            android:text="@string/frase"
             android:textColor="#3D3D3D"
             android:textSize="20dp" />
-
     </RelativeLayout>
 
 </LinearLayout>
