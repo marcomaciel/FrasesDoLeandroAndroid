@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="frase">Hello World, FrasesDoLeandro!</string>
-    <string name="app_name">FrasesDoLeandroAndroid</string>
+    <string name="frase">Oi, Frases Do Leandro.</string>
+    <string name="app_name">Frases do Leandro</string>
     <string name="tit_botao">Outra frase&#8230;</string>
     <string name="tit_app">Frases do Leandro</string>
 
